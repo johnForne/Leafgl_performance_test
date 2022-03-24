@@ -1,0 +1,13 @@
+name: Leafgl_performance_test
+title: Leafgl_performance_test
+username:
+account: statisticsnz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5914557
+bundleId: 5720653
+url: https://statisticsnz.shinyapps.io/Leafgl_performance_test/
+when: 1648099454.9046
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: f836a785-194b-4d2b-bfcd-a00849d29a43.gdb

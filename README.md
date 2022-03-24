@@ -1,2 +1,4 @@
 # Leafgl_performance_test
 This repository was set up to provide a code and data to create an example map using leafgl. The particular issue being explored here is whether it is possible to improve the performance of maps using leafgl published using shiny. The example data used here is the digital river network for Aotearoa/New Zealand published by NIWA (https://data-niwa.opendata.arcgis.com/datasets/NIWA::river-lines/about).
+
+This code (app.R) creates a example map using leafgl that I'd like to help understanding how I can speed up the time to load the map. When I tried opening this shiny map in shiny.io (refer https://statisticsnz.shinyapps.io/Leafgl_performance_test/) it took 2 minutes: 20 seconds. It's amazingly fast once loaded - but I'd like to know how to speed up time it takes to load. I'm concerned that people won't wait over 2 minutes to open this app...
