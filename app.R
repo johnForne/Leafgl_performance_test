@@ -8,9 +8,9 @@ library(tidyverse)
 library(sf)
 library(shiny)
 
-# #  First, download the data (as file geodatabase) from https://data-niwa.opendata.arcgis.com/datasets/NIWA::river-lines/about and upload to ./data folder. Then load data and prepare the data for mapping and save to data folder. Once this chunk has been run and data.RDS saved, hash it and then click "run App". And publish app to shiny.io (refer https://statisticsnz.shinyapps.io/Leafgl_performance_test/)
+# #  First, download the data (as file geodatabase) from https://data-niwa.opendata.arcgis.com/datasets/NIWA::river-lines/about and upload to project directory folder. Then load data and prepare the data for mapping and save. Once this chunk has been run and data.RDS saved, hash it and then click "run App". And publish app to shiny.io (refer https://statisticsnz.shinyapps.io/Leafgl_performance_test/)
 
-# st_read("./data/f836a785-194b-4d2b-bfcd-a00849d29a43.gdb/") %>%
+# st_read("./f836a785-194b-4d2b-bfcd-a00849d29a43.gdb/") %>%
 #   # head(500000) %>%
 #   st_transform(4236) %>%
 #   st_cast("LINESTRING") %>%
